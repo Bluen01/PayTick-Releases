@@ -1,0 +1,51 @@
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller 打包产物与临时目录
+build/
+dist/
+*.spec
+*.manifest
+*.egg-info/
+eggs/
+
+# IDE 与系统文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地密钥与环境变量
+.env
+.env.*
+
+# 本地运行数据、缓存与个人配置
+config.json
+path_config.json
+comp_time.json
+slacking_stats.json
+alarms.json
+clipboard_history.json
+holidays_cache.json
+messages_cache.json
+clipboard_cache/
+ringtones/
+手机互传接收/
+*.log
+*.tmp
